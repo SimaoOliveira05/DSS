@@ -1,37 +1,45 @@
 # bUMger Kings
 
-> Sistema integrado de gestão para uma cadeia de restaurantes de fast-food, desde o pedido do cliente até à confecão e entrega.
+> Integrated management system for a fast-food chain, handling everything from customer orders to kitchen production and delivery.
 
-## Contexto Académico
-| | |
-| :--- | :--- |
-| **Cadeira** | Desenvolvimento de Sistemas de Software |
-| **Curso** | Licenciatura em Engenharia Informática |
-| **Ano Letivo** | 2025 / 2026 |
-| **Nota Final** | **XX** / 20 |
+## Final Grade
+**XX** / 20
 
-## Sobre o Projeto
-Este projeto consiste num sistema de gestão para uma cadeia de restaurantes (bUMger Kings), desenvolvido para automatizar o funcionamento dos restaurantes e fornecer indicadores de gestão. O objetivo principal era implementar uma arquitetura em camadas (Lógica de Negócio, Dados, Interface) capaz de suportar todo o ciclo de vida de um pedido, bem como a gestão operacional.
+## Authors
+* **[Student Name]**
+* **[Student Name]**
+* **[Student Name]**
 
-O sistema permite que clientes façam pedidos em quiosques digitais, que são depois decompostos em tarefas específicas para diferentes postos de cozinha (grelha, fritura, montagem, etc.). Simultaneamente, oferece ferramentas para gestores e administradores (COO) monitorizarem stocks, tempos de espera e faturação.
+## About the Project
+This project consists of a management system for a restaurant chain (bUMger Kings), developed to automate restaurant operations and provide management indicators.
 
-### Funcionalidades Principais
-* **Gestão de Pedidos:** Criação de pedidos personalizados, gestão de pagamentos e acompanhamento de estados (Em Preparação, Pronto, Entregue).
-* **Sistema de Produção (Cozinha):** Decomposição automática de pedidos em tarefas distribuídas por postos de trabalho; cálculo de tempos estimados (ETA) dinâmicos.
-* **Gestão e Administração:** Monitorização de indicadores de desempenho (KPIs) por restaurante ou cadeia completa, gestão de stocks e envio de mensagens para funcionários.
+**Project Focus:**
+The primary goal of this course was to prioritize **software modeling** and design patterns before implementation. Extensive design work was conducted to ensure a robust architecture, producing artifacts such as:
+* Domain Models
+* Class Diagrams
+* Package Diagrams
+* Sequence Diagrams
 
-## Tecnologias
-* **Linguagem:** Java (JDK 21)
+The system was implemented using a strict layered architecture (Business Logic, Data, Interface) to support the full lifecycle of an order and operational management.
+
+### Key Features
+* **Order Management:** Custom order creation, payment processing, and status tracking (Preparing, Ready, Delivered).
+* **Production System:** Automatic decomposition of orders into specific tasks for kitchen stations (Grill, Fryer, Assembly).
+* **Management & Admin:** Performance monitoring (KPIs), stock management, and staff messaging.
+
+## Technologies
+* **Language:** Java (JDK 21)
 * **Build Tool:** Maven
-* **Base de Dados:** MySQL (suportado via JDBC/Connector)
-* **Conceitos:** Arquitetura em Camadas, Padrão DAO, Singleton, Facade
+* **Database:** MySQL (via JDBC)
+* **Modeling:** Visual Paradigm
+* **Concepts:** Layered Architecture, DAO Pattern, Singleton, Facade
 
-## Como Correr
-Para compilar e executar o projeto, certifica-te que tens o Java e o Maven instalados.
+## How to Run
+Ensure you have Java and Maven installed.
 
 ```bash
-# Compilar o projeto
+# Compile the project
 mvn clean install
 
-# Executar a aplicação (exemplo via plugin exec ou jar gerado)
+# Run the application
 java -cp target/bUMguerKings-1.0-SNAPSHOT-jar-with-dependencies.jar org.App
