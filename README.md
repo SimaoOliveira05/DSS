@@ -3,12 +3,12 @@
 > Integrated management system for a fast-food chain, handling everything from customer orders to kitchen production and delivery.
 
 ## Final Grade
-**XX** / 20
+19 / 20
 
 ## Authors
-* **[Student Name]**
-* **[Student Name]**
-* **[Student Name]**
+* **Simão Oliveira** – [GitHub](https://github.com/simaooliveira)
+* **Gabriel Dantas** – [GitHub](https://github.com/gabil88)
+* **José Fernandes** – [GitHub](https://github.com/JoseLourencoFernandes)
 
 ## About the Project
 This project consists of a management system for a restaurant chain (bUMger Kings), developed to automate restaurant operations and provide management indicators.
