@@ -1,0 +1,19 @@
+Grupo 6
+
+Modelo de Domínio:
+
+- não sei se a designação "Ingrediente" é a mais adequada a explicar o conceito subjacente.
+- o modelo de domínio está com boa capacidade de expressividade
+
+Modelo de Use Cases:
+
+- os UC associados ao pagamento são na realidade feitos fora do sistema.
+Quando muito, no sistema, apenas se teria que registar que o pagamento foi efectuado de acordo com o modelo de pagamento escolhido.
+- no UC "Efectuar pedido", os passos 5, 6, 7 e 8 poderiam ser evitados. Bastaria registar a existência de notas e alterações e isso faz-se nos fluxos alternativos.
+- da mesma forma, os passos 6.1, 8.1 e 12.1 poderiam ser evitados pq já sabemos o que o actor decidiu fazer.
+- o UC "Pedir um Ingrediente" tem efeito sobre o Efectuar PEdido, mas no diagrama essa associação não é evidente.
+
+
+Bom relatório com explicações sobre o processo que seguiram até chegar aos modelos.
+O feedback sobre esta primeira fase é muito positivo.
+
