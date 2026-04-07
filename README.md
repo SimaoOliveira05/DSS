@@ -1,4 +1,4 @@
-# DSS
+# bUMguer Kings
 
 Integrated management system for a fast-food chain, handling everything from customer orders to kitchen production and delivery.
 
